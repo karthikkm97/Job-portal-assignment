@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { useState } from 'react';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
-import SignUp from './pages/SignUp/Signup';
+import SignUp from './pages/SignUp/SignUp';
 import OpenPosition from './pages/Home/OpenPostition';
 
 // PrivateRoute component to restrict access to protected pages

@@ -47,7 +47,7 @@ const Signup = () => {
       if(response.data && response.data.accessToken) {
         localStorage.setItem("token",response.data.accessToken)
         alert("Registration Successful");
-        navigate("/login")
+        navigate("/")
       }
     }
     catch (error) {

@@ -7,7 +7,7 @@ const Navbar = () => {
   const onLogout = () => {
     localStorage.clear();
     alert("Logout Successful");
-    navigate("/login");
+    navigate("/");
   };
 
   return (
